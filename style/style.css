@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #F0F1F1;
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f1f1;
 }
 
 .header-area {
@@ -53,7 +53,6 @@ body {
   gap: 20px;
 }
 
-/* Reset menu styling */
 .menu {
   list-style: none;
   display: flex;
@@ -62,65 +61,63 @@ body {
   margin: 0;
 }
 
-/* Critical fix for menu items */
 .menu-item {
-  display: block; /* Changed from inline-block */
-  position: relative; /* Added for positioning context */
+  display: block;
+  position: relative;
 }
 
-/* Enhanced menu link styling */
 .menu-link {
   text-decoration: none;
   color: black;
   padding: 10px 15px;
-  display: inline-block; /* Changed from block */
+  display: inline-block;
   transition: all 0.2s ease;
-  position: relative; /* Added for hover effects */
+  position: relative;
   border-radius: 3px;
 }
 
-/* More specific and stronger hover selector */
 .menu-item .menu-link:hover,
 .menu .menu-link:hover {
-  background-color: #094B72 !important; /* Added !important to override any conflicting styles */
+  background-color: #094b72 !important;
   color: white !important;
   font-weight: bold;
 }
 
-/* Force color change on active/focus states as well */
 .menu-link:active,
 .menu-link:focus {
-  background-color: #094B72;
+  background-color: #094b72;
   color: white;
 }
 
 .hero {
   display: flex;
   flex-direction: row;
-  padding-left: 20px;
+  padding-left: 75px;
 }
 
 .hero-headline {
-  color: #094B72;
+  color: #094b72;
 }
 
 .get-started-button button {
-  background-color: #094B72;
+  background-color: #094b72;
   color: aliceblue;
   padding: 10px;
   font-weight: bold;
-  border: none; /* Added to remove default button border */
-  border-radius: 4px; /* Optional: for rounded corners */
-  cursor: pointer; /* Added to show hand cursor on hover */
-  transition: background-color 0.3s ease; /* For smooth hover effect */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 .get-started-button button:hover {
-  background-color: #073d5e; /* Slightly darker shade for hover */
+  background-color: #073d5e;
 }
 
 .hero-image img {
   height: 800px;
   width: auto;
   margin-top: -150px;
+}
+.hero-headline {
+  font-family: Playfair Display;
 }
