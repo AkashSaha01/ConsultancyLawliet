@@ -1,45 +1,126 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0F1F1;
 }
+
 .header-area {
   width: 100%;
+  background-color: white;
   display: flex;
   justify-content: center;
 }
+
 .header {
   width: 60%;
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
+
 .header-logo {
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: row;
 }
+
 .logo-image img {
+  padding: 10px 0px;
   height: 50px;
   width: auto;
 }
 
 .logo-name {
-  margin-left: 10px;
+  padding: 0px 10px;
 }
+
+.header-logo {
+  width: 30%;
+}
+
 .header-menu {
+  width: 70%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+
 .header-menu nav {
+  width: 90%;
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
+/* Reset menu styling */
 .menu {
   list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
 }
+
+/* Critical fix for menu items */
+.menu-item {
+  display: block; /* Changed from inline-block */
+  position: relative; /* Added for positioning context */
+}
+
+/* Enhanced menu link styling */
 .menu-link {
   text-decoration: none;
   color: black;
+  padding: 10px 15px;
+  display: inline-block; /* Changed from block */
+  transition: all 0.2s ease;
+  position: relative; /* Added for hover effects */
+  border-radius: 3px;
+}
+
+/* More specific and stronger hover selector */
+.menu-item .menu-link:hover,
+.menu .menu-link:hover {
+  background-color: #094B72 !important; /* Added !important to override any conflicting styles */
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Force color change on active/focus states as well */
+.menu-link:active,
+.menu-link:focus {
+  background-color: #094B72;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.hero-headline {
+  color: #094B72;
+}
+
+.get-started-button button {
+  background-color: #094B72;
+  color: aliceblue;
+  padding: 10px;
+  font-weight: bold;
+  border: none; /* Added to remove default button border */
+  border-radius: 4px; /* Optional: for rounded corners */
+  cursor: pointer; /* Added to show hand cursor on hover */
+  transition: background-color 0.3s ease; /* For smooth hover effect */
+}
+
+.get-started-button button:hover {
+  background-color: #073d5e; /* Slightly darker shade for hover */
+}
+
+.hero-image img {
+  height: 800px;
+  width: auto;
+  margin-top: -150px;
 }
