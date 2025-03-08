@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  gap: 0;
   font-family: "Poppins", sans-serif;
   background-color: #f0f1f1;
 }
@@ -97,6 +98,7 @@ body {
   display: flex;
   flex-direction: row;
   padding-left: 10px;
+  padding-bottom: 0px;
 }
 
 .hero-headline {
@@ -118,14 +120,14 @@ body {
 }
 
 .hero-image img {
-  height: 575px;
+  height: 600px;
   width: auto;
   margin-top: -100px;
-  margin-left: -20px;
+  margin-left: -25px;
 }
 .hero-headline {
   font-family: Playfair Display;
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 .hero-company-section {
   color: gray;
@@ -151,5 +153,20 @@ body {
   padding-top: 10px;
 }
 .Legaliztion-area {
-  background-color: #d5ebf2;
+  background-color: #e4fbff;
+  margin-top: -6px;
+  display: flex;
+  justify-content: center;
+}
+.legalization {
+  font-family: Playfair Display;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.legalization-headline {
+  width: 45%;
+}
+.legalization-cards {
+  width: 55%;
 }
