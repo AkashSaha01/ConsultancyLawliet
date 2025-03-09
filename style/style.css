@@ -166,10 +166,10 @@ body {
 }
 .legalization-headline {
   padding: 60px 30px;
-  width: 45%;
+  width: 40%;
 }
 .legalization-cards {
-  width: 55%;
+  width: 60g%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
