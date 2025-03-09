@@ -169,7 +169,7 @@ body {
   width: 40%;
 }
 .legalization-cards {
-  width: 60g%;
+  width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
@@ -180,7 +180,7 @@ body {
 .card {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px rgb(56, 60, 62);
+  box-shadow: 2px 2px 2px rgb(72, 76, 78);
   overflow: hidden;
   height: 100%;
 }
@@ -201,4 +201,29 @@ body {
 }
 .card_content p {
   color: gray;
+}
+.Count-area {
+  background-color: #1d8cb1;
+  display: flex;
+  justify-content: center;
+}
+.count-div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  font-family: Playfair Display;
+}
+#count-top-line {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.count-headlines p {
+  padding: 0px;
+  color: white;
+}
+.count-numbers {
+  display: flex;
+  flex-direction: column;
 }
