@@ -162,17 +162,36 @@ body {
   font-family: Playfair Display;
   width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .legalization-headline {
+  padding: 20px;
   width: 45%;
 }
 .legalization-cards {
   width: 55%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  margin: auto;
+  padding: 40px 25px;
 }
 .card {
   background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(56, 60, 62);
+  overflow: hidden;
+  height: 100%;
 }
+
 .card_content {
   padding: 10px;
+}
+#legalization-heading {
+  font-size: 2.75rem;
+}
+#legalization-paragraph {
+  color: gray;
+  font-size: 1.25rem;
 }
