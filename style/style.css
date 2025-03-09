@@ -170,3 +170,9 @@ body {
 .legalization-cards {
   width: 55%;
 }
+.card {
+  background-color: white;
+}
+.card_content {
+  padding: 10px;
+}
