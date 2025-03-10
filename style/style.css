@@ -180,7 +180,7 @@ body {
 .card {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px rgb(72, 76, 78);
+  box-shadow: 2px 2px 2px rgb(97, 98, 99);
   overflow: hidden;
   height: 100%;
 }
@@ -202,28 +202,267 @@ body {
 .card_content p {
   color: gray;
 }
-.Count-area {
+.count-area {
   background-color: #1d8cb1;
   display: flex;
   justify-content: center;
+  padding: 40px 0;
 }
+
 .count-div {
-  width: 50%;
+  width: 40%;
   display: flex;
-  justify-content: center;
-  gap: 0px;
-  font-family: Playfair Display;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 25px;
 }
+
 #count-top-line {
   color: white;
   font-weight: bold;
   font-size: 2rem;
 }
+
 .count-headlines p {
-  padding: 0px;
   color: white;
+  margin: 5px 0;
 }
+
 .count-numbers {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.count-block {
+  text-align: center;
+  gap:0px;
+  min-width: 100px;
+}
+
+.block-number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background-color: white;
+}
+.block-name{
+  margin-top:-40px;
+}
+.client-testimonial-area{
+  font-family: Playfair Display;
+  background-color: #e4fbff;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+}
+.client-testimonial{
+  width: 60%;
+  padding-top: 20px;
+  padding-bottom:10px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-headline{
+font-size: 2.5rem;
+}
+.testimonial-cards-block{
+  display: flex;
+
+  gap:15px;
+}
+.testimonial-cards{
+background-color: white;
+width:45%;
+border-radius: 8px;
+box-shadow: 2px 2px 6px rgb(97, 98, 99);
+padding:15px;
+font-family: "Poppins", sans-serif;
+font-size: 0.75rem;
+}
+#client-card-headline{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.testminial-client{
+  display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.profile-testimonial-section{
+width: 70%;
+display: flex;
+justify-content: space-between;
+
+
+}
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid rgb(100, 149, 180); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.profile-role {
+  font-size: 0.85rem;
+  color: #777;
+}
+.question-area{
+background-color: white;
+display: flex;
+justify-content: space-between;
+font-family: Playfair Display;
+}
+.question{
+  display: flex;
+  
+}
+#calling-phone-left {  
+  height: 250px;
+  width: auto;
+  border-bottom-right-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(5, 0, 0, 0.2); /* Adds shadow to the right-bottom */
+}
+
+#calling-phone-right {
+  height: 250px;
+  width: auto;
+  border-top-left-radius: 20px;
+  box-shadow: -5px -5px 15px rgba(10, 11, 13, 0.2); /* Adds shadow to the left-top */
+}
+
+.question-middle-block h3{
+  font-size:2rem
+}
+.question-middle-block {
+  padding:10px 40px;
+}
+#call-button{
+  background-color: #095d72;
+  color:white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  border-radius:8px;
+
+}
+#button-icon{
+padding:10px;
+height:22px;
+width:auto
+}
+#buttoName{
+  padding-top:10px;
+  padding-right:10px;
+}
+.footer-upper-area{
+
+  background-color: #1d8cb1;
+  
+}
+.footer-upper{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-left{
+  display: flex;
+  width:50%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#footer-logo{
+  height:40px;
+  width:auto;
+  padding:10px;
+}
+#footer-name{
+padding-top:12px;
+color:white;
+font-weight: bold;
+font-size: 1.5rem;
+}
+.footer-table {
+  color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+.footer-table th,
+.footer-table td {
+  text-align: left; 
+  padding: 5px 20px;
+  white-space: nowrap; 
+}
+
+.footer-right {
+  padding-top: 50px;
+  text-align: left;
+  display: flex;
+  padding-bottom:20px;
+  justify-content: flex-start; 
+}
+
+.footer-table a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  
+}
+.footer-table a :hover{
+  text-decoration: none;
+  color: rgb(2, 57, 70);
+  font-size: 12px;
+  
+}
+.bottom-footer{
+  width: 100%;
+  display: flex;
+  background-color: #073d5e;
+}
+
+.footer-right{
+  
+  gap:10px;
+}
+.footer-icon{
+height:40px;
+width:auto;
+}
+.icon-block{
+display: flex;
+align-items: end;
+justify-content: end;
+
+}
+.footer-left{
+  display: flex;
+  width: 50%;
+}
+#footer-copyright{
+padding-left:20px;
+color:white;
 }
